@@ -1,0 +1,268 @@
++ EBML head
+|+ EBML version: 1
+|+ EBML read version: 1
+|+ Maximum EBML ID length: 4
+|+ Maximum EBML size length: 8
+|+ Document type: matroska
+|+ Document type version: 4
+|+ Document type read version: 2
++ Segment: size 112533863
+|+ Seek head (subentries will be skipped)
+|+ EBML void: size 50
+|+ Segment information
+| + Timestamp scale: 1000000
+| + Title: ALU Design
+| + Multiplexing application: Lavf58.76.100
+| + Writing application: Lavf58.76.100
+| + Segment UID: 0xc5 0x91 0x6e 0x01 0x58 0xe1 0xf6 0xea 0x72 0x4e 0xcc 0xdb 0xd9 0x5e 0xc0 0x0a
+| + Duration: 00:15:11.134000000
+|+ Tracks
+| + Track
+|  + Track number: 1 (track ID for mkvmerge & mkvextract: 0)
+|  + Track UID: 18235198271054880352
+|  + "Lacing" flag: 0
+|  + Language: eng
+|  + Codec ID: V_VP9
+|  + Track type: video
+|  + Default duration: 00:00:00.016683332 (59.940 frames/fields per second for a video track)
+|  + Video track
+|   + Pixel width: 1280
+|   + Pixel height: 720
+|   + Video colour information
+|    + Colour transfer: 1
+|    + Colour matrix coefficients: 1
+|    + Colour primaries: 1
+|    + Colour range: 1
+| + Track
+|  + Track number: 2 (track ID for mkvmerge & mkvextract: 1)
+|  + Track UID: 3532158441433767677
+|  + "Lacing" flag: 0
+|  + Language: eng
+|  + Codec ID: A_OPUS
+|  + Codec-inherent delay: 00:00:00.006500000
+|  + Seek pre-roll: 00:00:00.080000000
+|  + Track type: audio
+|  + Audio track
+|   + Channels: 2
+|   + Sampling frequency: 48000
+|   + Bit depth: 32
+|  + Codec's private data: size 19
+| + Track
+|  + Track number: 3 (track ID for mkvmerge & mkvextract: 2)
+|  + Track UID: 8473774690184093490
+|  + "Lacing" flag: 0
+|  + Name: English
+|  + Language: eng
+|  + Codec ID: D_WEBVTT/SUBTITLES
+|  + Track type: subtitles
+| + Track
+|  + Track number: 4 (track ID for mkvmerge & mkvextract: 3)
+|  + Track UID: 3031882575712645436
+|  + "Lacing" flag: 0
+|  + Name: Italian
+|  + Language: ita
+|  + "Default track" flag: 0
+|  + Codec ID: D_WEBVTT/SUBTITLES
+|  + Track type: subtitles
+| + Track
+|  + Track number: 5 (track ID for mkvmerge & mkvextract: 4)
+|  + Track UID: 7997995471854912347
+|  + "Lacing" flag: 0
+|  + Name: Spanish
+|  + Language: spa
+|  + "Default track" flag: 0
+|  + Codec ID: D_WEBVTT/SUBTITLES
+|  + Track type: subtitles
+| + Track
+|  + Track number: 6 (track ID for mkvmerge & mkvextract: 5)
+|  + Track UID: 614115511829772375
+|  + "Lacing" flag: 0
+|  + Name: French
+|  + Language: fra
+|  + "Default track" flag: 0
+|  + Codec ID: D_WEBVTT/SUBTITLES
+|  + Track type: subtitles
+| + Track
+|  + Track number: 7 (track ID for mkvmerge & mkvextract: 6)
+|  + Track UID: 12948712407150896857
+|  + "Lacing" flag: 0
+|  + Name: German
+|  + Language: deu
+|  + "Default track" flag: 0
+|  + Codec ID: D_WEBVTT/SUBTITLES
+|  + Track type: subtitles
+|+ Chapters
+| + Edition entry
+|  + Edition flag default: 1
+|  + Chapter atom
+|   + Chapter UID: 1
+|   + Chapter time start: 00:00:00.007000000
+|   + Chapter time end: 00:01:07.007000000
+|   + Chapter display
+|    + Chapter string: <Untitled Chapter 1>
+|    + Chapter language: und
+|  + Chapter atom
+|   + Chapter UID: 2
+|   + Chapter time start: 00:01:07.007000000
+|   + Chapter time end: 00:05:30.007000000
+|   + Chapter display
+|    + Chapter string: Arithmetic Logic Unit
+|    + Chapter language: und
+|  + Chapter atom
+|   + Chapter UID: 3
+|   + Chapter time start: 00:05:30.007000000
+|   + Chapter time end: 00:07:08.007000000
+|   + Chapter display
+|    + Chapter string: 4-Bit Adder
+|    + Chapter language: und
+|  + Chapter atom
+|   + Chapter UID: 4
+|   + Chapter time start: 00:07:08.007000000
+|   + Chapter time end: 00:08:57.007000000
+|   + Chapter display
+|    + Chapter string: 4-Bit Adder
+|    + Chapter language: und
+|  + Chapter atom
+|   + Chapter UID: 5
+|   + Chapter time start: 00:08:57.007000000
+|   + Chapter time end: 00:09:09.007000000
+|   + Chapter display
+|    + Chapter string: Subtractions
+|    + Chapter language: und
+|  + Chapter atom
+|   + Chapter UID: 6
+|   + Chapter time start: 00:09:09.007000000
+|   + Chapter time end: 00:09:37.007000000
+|   + Chapter display
+|    + Chapter string: Subtraction
+|    + Chapter language: und
+|  + Chapter atom
+|   + Chapter UID: 7
+|   + Chapter time start: 00:09:37.007000000
+|   + Chapter time end: 00:10:53.007000000
+|   + Chapter display
+|    + Chapter string: Two's Complement
+|    + Chapter language: und
+|  + Chapter atom
+|   + Chapter UID: 8
+|   + Chapter time start: 00:10:53.007000000
+|   + Chapter time end: 00:11:40.007000000
+|   + Chapter display
+|    + Chapter string: Xor Gate
+|    + Chapter language: und
+|  + Chapter atom
+|   + Chapter UID: 9
+|   + Chapter time start: 00:11:40.007000000
+|   + Chapter time end: 00:15:10.007000000
+|   + Chapter display
+|    + Chapter string: Conditional Inverter
+|    + Chapter language: und
+|+ Attachments
+| + Attached
+|  + File name: info.json
+|  + MIME type: application/json
+|  + File data: size 319543
+|  + File UID: 2202268132303935265
+| + Attached
+|  + File name: cover.webp
+|  + MIME type: image/webp
+|  + File data: size 27288
+|  + File UID: 10412086653722037613
+|+ Tags
+| + Tag
+|  + Targets
+|  + Simple
+|   + Name: ARTIST
+|   + String: Ben Eater
+|  + Simple
+|   + Name: DATE
+|   + String: 20160710
+|  + Simple
+|   + Name: DESCRIPTION
+|   + String: In this video we go over the design for the Arithmetic and Logic Unit for our 8-bit computer.
+
+Before watching it's helpful to understand:
+- How a binary adder works: https://www.youtube.com/watch?v=wvJc9CZcvBc
+- How negative numbers are represented in binary: https://www.youtube.com/watch?v=4qH4unVtJkE
+
+Support me on Patreon: https://www.patreon.com/beneater
+
+See https://eater.net/bbcpu8-alu for more.
+|  + Simple
+|   + Name: SYNOPSIS
+|   + String: In this video we go over the design for the Arithmetic and Logic Unit for our 8-bit computer.
+
+Before watching it's helpful to understand:
+- How a binary adder works: https://www.youtube.com/watch?v=wvJc9CZcvBc
+- How negative numbers are represented in binary: https://www.youtube.com/watch?v=4qH4unVtJkE
+
+Support me on Patreon: https://www.patreon.com/beneater
+
+See https://eater.net/bbcpu8-alu for more.
+|  + Simple
+|   + Name: PURL
+|   + String: https://www.youtube.com/watch?v=mOVOS9AjgFs
+|  + Simple
+|   + Name: COMMENT
+|   + String: https://www.youtube.com/watch?v=mOVOS9AjgFs
+|  + Simple
+|   + Name: ENCODER
+|   + String: Lavf58.76.100
+| + Tag
+|  + Targets
+|   + Track UID: 18235198271054880352
+|  + Simple
+|   + Name: DURATION
+|   + String: 00:15:09.830000000
+| + Tag
+|  + Targets
+|   + Track UID: 3532158441433767677
+|  + Simple
+|   + Name: DURATION
+|   + String: 00:15:09.841000000
+| + Tag
+|  + Targets
+|   + Track UID: 8473774690184093490
+|  + Simple
+|   + Name: HANDLER_NAME
+|   + String: English
+|  + Simple
+|   + Name: DURATION
+|   + String: 00:15:11.134000000
+| + Tag
+|  + Targets
+|   + Track UID: 3031882575712645436
+|  + Simple
+|   + Name: HANDLER_NAME
+|   + String: Italian
+|  + Simple
+|   + Name: DURATION
+|   + String: 00:15:11.134000000
+| + Tag
+|  + Targets
+|   + Track UID: 7997995471854912347
+|  + Simple
+|   + Name: HANDLER_NAME
+|   + String: Spanish
+|  + Simple
+|   + Name: DURATION
+|   + String: 00:15:11.134000000
+| + Tag
+|  + Targets
+|   + Track UID: 614115511829772375
+|  + Simple
+|   + Name: HANDLER_NAME
+|   + String: French
+|  + Simple
+|   + Name: DURATION
+|   + String: 00:15:11.134000000
+| + Tag
+|  + Targets
+|   + Track UID: 12948712407150896857
+|  + Simple
+|   + Name: HANDLER_NAME
+|   + String: German
+|  + Simple
+|   + Name: DURATION
+|   + String: 00:15:11.134000000
+|+ Cluster
