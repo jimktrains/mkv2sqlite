@@ -49,5 +49,5 @@ metadata, like the title.
 
 ```sh
 mkvextract 20160710\ -\ ALU\ Design.mkv chapters 20160710\ -\ ALU\ Design.chapters.xml tags 20160710\ -\ ALU\ Design.tags.xml
-mkvmerge -J 20160710\ -\ ALU\ Design.mkv > 20160710\ -\ ALU\ Design.ident.json
+mkvmerge --identification-format json --identify 20160710\ -\ ALU\ Design.mkv > 20160710\ -\ ALU\ Design.ident.json
 ```
