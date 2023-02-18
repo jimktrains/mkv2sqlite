@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<!-- <!DOCTYPE Chapters SYSTEM "matroskachapters.dtd"> -->
+<Chapters>
+  <EditionEntry>
+    <EditionFlagDefault>1</EditionFlagDefault>
+    <ChapterAtom>
+      <ChapterUID>1</ChapterUID>
+      <ChapterTimeStart>00:00:00.007000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:01:07.007000000</ChapterTimeEnd>
+      <ChapterDisplay>
+        <ChapterString>&lt;Untitled Chapter 1&gt;</ChapterString>
+        <ChapterLanguage>und</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>2</ChapterUID>
+      <ChapterTimeStart>00:01:07.007000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:05:30.007000000</ChapterTimeEnd>
+      <ChapterDisplay>
+        <ChapterString>Arithmetic Logic Unit</ChapterString>
+        <ChapterLanguage>und</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>3</ChapterUID>
+      <ChapterTimeStart>00:05:30.007000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:07:08.007000000</ChapterTimeEnd>
+      <ChapterDisplay>
+        <ChapterString>4-Bit Adder</ChapterString>
+        <ChapterLanguage>und</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>4</ChapterUID>
+      <ChapterTimeStart>00:07:08.007000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:08:57.007000000</ChapterTimeEnd>
+      <ChapterDisplay>
+        <ChapterString>4-Bit Adder</ChapterString>
+        <ChapterLanguage>und</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>5</ChapterUID>
+      <ChapterTimeStart>00:08:57.007000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:09:09.007000000</ChapterTimeEnd>
+      <ChapterDisplay>
+        <ChapterString>Subtractions</ChapterString>
+        <ChapterLanguage>und</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>6</ChapterUID>
+      <ChapterTimeStart>00:09:09.007000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:09:37.007000000</ChapterTimeEnd>
+      <ChapterDisplay>
+        <ChapterString>Subtraction</ChapterString>
+        <ChapterLanguage>und</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>7</ChapterUID>
+      <ChapterTimeStart>00:09:37.007000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:10:53.007000000</ChapterTimeEnd>
+      <ChapterDisplay>
+        <ChapterString>Two's Complement</ChapterString>
+        <ChapterLanguage>und</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>8</ChapterUID>
+      <ChapterTimeStart>00:10:53.007000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:11:40.007000000</ChapterTimeEnd>
+      <ChapterDisplay>
+        <ChapterString>Xor Gate</ChapterString>
+        <ChapterLanguage>und</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>9</ChapterUID>
+      <ChapterTimeStart>00:11:40.007000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:15:10.007000000</ChapterTimeEnd>
+      <ChapterDisplay>
+        <ChapterString>Conditional Inverter</ChapterString>
+        <ChapterLanguage>und</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+  </EditionEntry>
+</Chapters>

@@ -1,0 +1,222 @@
+{
+  "attachments": [
+    {
+      "content_type": "application/json",
+      "description": "",
+      "file_name": "info.json",
+      "id": 1,
+      "properties": {
+        "uid": 2202268132303935265
+      },
+      "size": 319543
+    },
+    {
+      "content_type": "image/webp",
+      "description": "",
+      "file_name": "cover.webp",
+      "id": 2,
+      "properties": {
+        "uid": 10412086653722037613
+      },
+      "size": 27288
+    }
+  ],
+  "chapters": [
+    {
+      "num_entries": 9
+    }
+  ],
+  "container": {
+    "properties": {
+      "container_type": 17,
+      "duration": 911134000000,
+      "is_providing_timestamps": true,
+      "muxing_application": "Lavf58.76.100",
+      "segment_uid": "c5916e0158e1f6ea724eccdbd95ec00a",
+      "title": "ALU Design",
+      "writing_application": "Lavf58.76.100"
+    },
+    "recognized": true,
+    "supported": true,
+    "type": "Matroska"
+  },
+  "errors": [],
+  "file_name": "/home/jim/Videos/tests/20160710 - ALU Design.mkv",
+  "global_tags": [
+    {
+      "num_entries": 7
+    }
+  ],
+  "identification_format_version": 14,
+  "track_tags": [
+    {
+      "num_entries": 1,
+      "track_id": 0
+    },
+    {
+      "num_entries": 1,
+      "track_id": 1
+    },
+    {
+      "num_entries": 2,
+      "track_id": 2
+    },
+    {
+      "num_entries": 2,
+      "track_id": 3
+    },
+    {
+      "num_entries": 2,
+      "track_id": 4
+    },
+    {
+      "num_entries": 2,
+      "track_id": 5
+    },
+    {
+      "num_entries": 2,
+      "track_id": 6
+    }
+  ],
+  "tracks": [
+    {
+      "codec": "VP9",
+      "id": 0,
+      "properties": {
+        "codec_id": "V_VP9",
+        "codec_private_length": 0,
+        "default_duration": 16683332,
+        "default_track": true,
+        "display_dimensions": "1280x720",
+        "display_unit": 0,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "eng",
+        "minimum_timestamp": 21000000,
+        "number": 1,
+        "pixel_dimensions": "1280x720",
+        "tag_duration": "00:15:09.830000000",
+        "uid": 18235198271054880352
+      },
+      "type": "video"
+    },
+    {
+      "codec": "Opus",
+      "id": 1,
+      "properties": {
+        "audio_bits_per_sample": 32,
+        "audio_channels": 2,
+        "audio_sampling_frequency": 48000,
+        "codec_delay": 6500000,
+        "codec_id": "A_OPUS",
+        "codec_private_data": "4f707573486561640102380180bb0000000000",
+        "codec_private_length": 19,
+        "default_track": true,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "eng",
+        "minimum_timestamp": 0,
+        "number": 2,
+        "tag_duration": "00:15:09.841000000",
+        "uid": 3532158441433767677
+      },
+      "type": "audio"
+    },
+    {
+      "codec": "D_WEBVTT/SUBTITLES",
+      "id": 2,
+      "properties": {
+        "codec_id": "D_WEBVTT/SUBTITLES",
+        "codec_private_length": 0,
+        "default_track": true,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "eng",
+        "minimum_timestamp": 74000000,
+        "number": 3,
+        "tag_duration": "00:15:11.134000000",
+        "tag_handler_name": "English",
+        "track_name": "English",
+        "uid": 8473774690184093490
+      },
+      "type": "subtitles"
+    },
+    {
+      "codec": "D_WEBVTT/SUBTITLES",
+      "id": 3,
+      "properties": {
+        "codec_id": "D_WEBVTT/SUBTITLES",
+        "codec_private_length": 0,
+        "default_track": false,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "ita",
+        "minimum_timestamp": 74000000,
+        "number": 4,
+        "tag_duration": "00:15:11.134000000",
+        "tag_handler_name": "Italian",
+        "track_name": "Italian",
+        "uid": 3031882575712645436
+      },
+      "type": "subtitles"
+    },
+    {
+      "codec": "D_WEBVTT/SUBTITLES",
+      "id": 4,
+      "properties": {
+        "codec_id": "D_WEBVTT/SUBTITLES",
+        "codec_private_length": 0,
+        "default_track": false,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "spa",
+        "minimum_timestamp": 74000000,
+        "number": 5,
+        "tag_duration": "00:15:11.134000000",
+        "tag_handler_name": "Spanish",
+        "track_name": "Spanish",
+        "uid": 7997995471854912347
+      },
+      "type": "subtitles"
+    },
+    {
+      "codec": "D_WEBVTT/SUBTITLES",
+      "id": 5,
+      "properties": {
+        "codec_id": "D_WEBVTT/SUBTITLES",
+        "codec_private_length": 0,
+        "default_track": false,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "fre",
+        "minimum_timestamp": 74000000,
+        "number": 6,
+        "tag_duration": "00:15:11.134000000",
+        "tag_handler_name": "French",
+        "track_name": "French",
+        "uid": 614115511829772375
+      },
+      "type": "subtitles"
+    },
+    {
+      "codec": "D_WEBVTT/SUBTITLES",
+      "id": 6,
+      "properties": {
+        "codec_id": "D_WEBVTT/SUBTITLES",
+        "codec_private_length": 0,
+        "default_track": false,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "ger",
+        "minimum_timestamp": 74000000,
+        "number": 7,
+        "tag_duration": "00:15:11.134000000",
+        "tag_handler_name": "German",
+        "track_name": "German",
+        "uid": 12948712407150896857
+      },
+      "type": "subtitles"
+    }
+  ],
+  "warnings": []
+}
