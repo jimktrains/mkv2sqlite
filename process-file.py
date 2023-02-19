@@ -28,8 +28,7 @@ class Video:
   def from_file(filepath):
       v = Video()
       v.filepath = os.path.realpath(filepath)
-      v = v.update_from_identify().update_from_tags()
-      return (v, Subtitles.from_video(v), Chapter.from_video(v))
+      return v
 
 
   def update_from_identify(self):
@@ -166,10 +165,22 @@ parser.add_argument('dbfilename')
 parser.add_argument('videofilename')
 args = parser.parse_args()
 
-(v, subtitles, chapters) = Video.from_file(args.videofilename)
 
 with sqlite3.connect(args.dbfilename) as con:
     cur = con.cursor()
+
+    v = Video.from_file(args.videofilename)
+    res = cur.execute("select 1 from video where filepath = ?", (v.filepath,))
+    if len(list(res)) != 0:
+        exit(0)
+
+    v = v.update_from_identify().update_from_tags()
+    res = cur.execute("select 1 from video where service = ? and service_id = ?", (v.service, v.service_id))
+    if len(list(res)) != 0:
+        exit(0)
+
+    subtitles = Subtitles.from_video(v)
+    chapters = Chapter.from_video(v)
     cur.execute("""insert or ignore into video (
       service,
       service_id,

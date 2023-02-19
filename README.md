@@ -1,8 +1,18 @@
 # mkv2sqlite
 Converts the metadata in an MKV into a sqlitedb.
 
+To process files in subdirectories, you can use
 
-# Sample file '20160710 - ALU Design.mkvinfo'
+```sh
+find . -iname \*mkv  -print0 | parallel --null --bar './process-file.py videos.sqlite3 {}'
+```
+
+sqlite3 will work with multiple processes sharing the same database. `parallel`
+will correctly quote the filename passed in via `{}`, so there's no need to
+quote it in the command template.
+
+
+# Sample file '20160710 - ALU Design.mkv'
 
 The video was optained via.
 
