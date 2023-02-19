@@ -11,6 +11,12 @@ sqlite3 will work with multiple processes sharing the same database. `parallel`
 will correctly quote the filename passed in via `{}`, so there's no need to
 quote it in the command template.
 
+# Generate the yt-dlp download archive
+
+```sh
+echo "select service, service_id from video" | sqlite3 -separator ' ' videos.sqlite3 > ytdlarchive
+```
+
 
 # Sample file '20160710 - ALU Design.mkv'
 
@@ -60,4 +66,11 @@ metadata, like the title.
 ```sh
 mkvextract 20160710\ -\ ALU\ Design.mkv chapters 20160710\ -\ ALU\ Design.chapters.xml tags 20160710\ -\ ALU\ Design.tags.xml
 mkvmerge --identification-format json --identify 20160710\ -\ ALU\ Design.mkv > 20160710\ -\ ALU\ Design.ident.json
+```
+
+# Citations
+
+```
+Tange, O. (2022, October 22). GNU Parallel 20221022 ('Nord Stream').
+Zenodo. https://doi.org/10.5281/zenodo.7239559
 ```
