@@ -116,9 +116,18 @@ class Chapter:
     if result.returncode != 0:
         print(result)
         exit(result.returncode)
-    chapterroot = etree.fromstring(result.stdout)
+    chapterroot = None
+    try:
+        chapterroot = etree.fromstring(result.stdout)
+    except:
+        if len(result.stdout) != 0:
+            print(result)
+            exit(255)
 
     chapters = []
+    if chapterroot is None:
+        return chapters
+
     for chapter in chapterroot.xpath('//ChapterAtom'):
         c = Chapter()
         c.service = v.service
@@ -161,7 +170,7 @@ args = parser.parse_args()
 
 with sqlite3.connect(args.dbfilename) as con:
     cur = con.cursor()
-    cur.execute("""insert into video (
+    cur.execute("""insert or ignore into video (
       service,
       service_id,
       title,
@@ -191,7 +200,7 @@ with sqlite3.connect(args.dbfilename) as con:
     ));
 
     for st in subtitles:
-        cur.execute("""insert into subtitles (
+        cur.execute("""insert or ignore into subtitles (
           service,
           service_id,
           isolang3,
@@ -213,7 +222,7 @@ with sqlite3.connect(args.dbfilename) as con:
         ))
 
     for (c, cds) in chapters:
-        cur.execute("""insert into chapter (
+        cur.execute("""insert or ignore into chapter (
           service,
           service_id,
           chapter_uid,
@@ -233,7 +242,7 @@ with sqlite3.connect(args.dbfilename) as con:
           c.end_ms,
         ))
         for cd in cds:
-            cur.execute("""insert into chapterdisplay (
+            cur.execute("""insert or ignore into chapterdisplay (
       service,
       service_id,
       chapter_uid,
